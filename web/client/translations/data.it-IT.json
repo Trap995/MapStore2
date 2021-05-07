@@ -31,7 +31,7 @@
         "Forbidden": "Vietato",
         "layerNameChangeError": {
             "title": "Errore di modifica del nome",
-            "message": "Il livello non è stato ricaricato con un nome modificato"
+            "message": "Il dato geografico non è stato ricaricato con un nome modificato"
         },
         "version": {
             "label": "Versione"
@@ -57,7 +57,7 @@
         "remove": "Rimuovi",
         "removeThumbnail": "Rimuovi anteprima",
         "layerProperties": {
-            "windowTitle": "Proprietà del livello",
+            "windowTitle": "Proprietà del dato geografico",
             "title": "Titolo",
             "name": "Nome",
             "group": "Gruppo",
@@ -72,10 +72,10 @@
             "styleListLoadError": "Si è verificato un errore durante il caricamento della lista degli stili",
             "stylesRefreshList": "Aggiorna lista degli stili",
             "delete": "Elimina",
-            "deleteLayer":"Elimina Livello",
-            "deleteLayerMessage": "Sei sicuro di voler eliminare questo livello?",
+            "deleteLayer":"Elimina dato geografico",
+            "deleteLayerMessage": "Sei sicuro di voler eliminare questo dato geografico?",
             "deleteLayerGroup":"Elimina gruppo",
-            "deleteLayerGroupMessage": "Vuoi veramente cancellare questo gruppo e tutti i suoi livelli?",
+            "deleteLayerGroupMessage": "Vuoi veramente cancellare questo gruppo e tutti i suoi dati geografici?",
             "confirmDelete": "Sei sicuro?",
             "featureTypeError": "Impossibile caricare gli attributi del layer",
             "featureTypeErrorInvalidJSON": "Impossibile caricare gli attributi del layer. La risposta non è valida",
@@ -98,17 +98,17 @@
             "templateFormatTitle": "TEMPLATE",
             "templateFormatDescription": "Personalizza il formato di risposta",
             "hideFormatTitle": "DISABILITA IDENTIFICA",
-            "hideFormatDescription": "Disabilita le informazioni sulla funzionalità per questo livello",
+            "hideFormatDescription": "Disabilita le informazioni sulla funzionalità per questo dato geografico",
             "templateFormatInfoAlert1": "Click sul bottone di modifica per aggiungere un nuovo template.",
             "templateFormatInfoAlert2": "Usa ${ attribute } per aggiungere gli attributi da visualizzare",
             "templateFormatInfoAlertExample": "id della feature è ${ properties }",
             "templatePreview": "Anteprima template",
             "visibilityLimits": {
                 "title": "Limiti di visibilità",
-                "serverValuesUpdateUndefined": "Il server non ha fornito limiti di visibilità di scala per questo livello",
-                "serverValuesUpdate": "Il server ha fornito limiti di visibilità di scala minimi e massimi per questo livello",
-                "serverValuesUpdateMinScale": "Il server ha fornito solo il limite minimo di visibilità di scala per questo livello",
-                "serverValuesUpdateMaxScale": "Il server ha fornito solo il limite massimo di visibilità di scala per questo livello",
+                "serverValuesUpdateUndefined": "Il server non ha fornito limiti di visibilità di scala per questo dato geografico",
+                "serverValuesUpdate": "Il server ha fornito limiti di visibilità di scala minimi e massimi per questo dato geografico",
+                "serverValuesUpdateMinScale": "Il server ha fornito solo il limite minimo di visibilità di scala per questo dato geografico",
+                "serverValuesUpdateMaxScale": "Il server ha fornito solo il limite massimo di visibilità di scala per questo dato geografico",
                 "rangeError": "Il valore minimo è maggiore del valore massimo. Fornisci un intervallo in cui il valore massimo è maggiore del valore minimo",
                 "serverValuesError": "Non è possibile richiedere limiti di visibilità di scala minimi e massimi al server. Probabilmente a causa di un errore nella connessione di rete o di un endpoint di capacità mancante",
                 "updateWMSCapabilities": "Richiedi limiti di visibilità di scala minimi e massimi al server",
@@ -133,8 +133,8 @@
                 "left": "Sinistra",
                 "bottom": "Sotto",
                 "top": "Sopra",
-                "editLayerName": "Modifica il nome del livello",
-                "confirmLayerName": "Conferma la modifica del nome del livello"
+                "editLayerName": "Modifica il nome del dato geografico",
+                "confirmLayerName": "Conferma la modifica del nome del dato geografico"
             },
             "legendOptions": {
               "title": "Legenda",
@@ -169,7 +169,7 @@
             "warningSaveUpdatedMap": "Alcuni layer non sono stati aggiornati correttamente",
             "saveUpdatedMap": "Tutti i layer sono stati aggiornati con successo",
             "incompatibleBackgroundAndProjection":"The Projection you selected is not compatible with background, switch to a compatible -or an empty- background, then select this projection!",
-            "incompatibleDataAndProjection":"Uno o più livelli non sono completamente compatibili con la proiezione selezionata. I dati potrebbero essere (tutti o in parte) non visibili in mappa"
+            "incompatibleDataAndProjection":"Uno o più dati geografici non sono completamente compatibili con la proiezione selezionata. I dati potrebbero essere (tutti o in parte) non visibili in mappa"
         },
         "dock": {
             "row": "{rowsSelected} riga selezionata",
@@ -511,43 +511,43 @@
             "groupName": "Nome del gruppo"
         },
         "toc": {
-            "toggleLayerVisibility": "Attiva o disattiva la visibilità del livello",
+            "toggleLayerVisibility": "Attiva o disattiva la visibilità del dato geografico",
             "toggleGroupVisibility": "Attiva o disattiva la visibilità del gruppo",
             "displayLegendAndTools": "Visualizza legenda e strumenti aggiuntivi",
-            "zoomToLayerExtent": "Zoom all' estensione del livello",
-            "addLayer": "Aggiungi Livello",
-            "addLayerToGroup": "Aggiungi livello al gruppo selezionato",
+            "zoomToLayerExtent": "Zoom all' estensione del dato geografico",
+            "addLayer": "Aggiungi dato geografico",
+            "addLayerToGroup": "Aggiungi dato geografico al gruppo selezionato",
             "addGroup": "Aggiungi Gruppo",
             "addSubGroup": "Aggiungi sotto gruppo al gruppo selezionato",
-            "toolZoomToLayerTooltip": "Zoom all' estensione del livello",
-            "toolZoomToLayersTooltip": "Zoom all' estensione del livelli",
-            "toolLayerSettingsTooltip": "Modifica proprietà del livello selezionato",
+            "toolZoomToLayerTooltip": "Zoom all' estensione del dato geografico",
+            "toolZoomToLayersTooltip": "Zoom all' estensione del dati geografici",
+            "toolLayerSettingsTooltip": "Modifica proprietà del dato geografico selezionato",
             "toolGroupSettingsTooltip": "Modifica proprietà del gruppo selezionato",
-            "toolTrashLayerTooltip": "Rimuovi livello selezionato",
-            "toolTrashLayersTooltip": "Rimuovi livelli selezionati",
+            "toolTrashLayerTooltip": "Rimuovi dato geografico selezionato",
+            "toolTrashLayersTooltip": "Rimuovi dati geografici selezionati",
             "toolTrashGroupTooltip": "Rimuovi gruppo selezionato",
             "toolFeaturesGridTooltip": "Apri tabella degli attributi",
             "layerFilterTooltip": "Filtra il layer",
-            "toolDownloadTooltip": "Esporta i dati del livello",
+            "toolDownloadTooltip": "Esporta i dati del dato geografico",
             "noFilteredResults": "Nessun risultato",
             "filterPlaceholder": "Filtra layers",
             "clearFilter": "Pulisci filtro",
-            "toolReloadLayerTooltip": "Forza caricamento del livello selezionato",
-            "toolReloadLayersTooltip": "Forza caricamento dei livelli selezionati",
+            "toolReloadLayerTooltip": "Forza caricamento del dato geografico selezionato",
+            "toolReloadLayersTooltip": "Forza caricamento dei dati geografici selezionati",
             "statusIconOpen": "Chiudi gruppo",
             "statusIconClose": "Apri gruppo",
-            "grabLayerIcon": "Trascina e ordina i livelli",
+            "grabLayerIcon": "Trascina e ordina i dati geografici",
             "grabGroupIcon": "Trascina e ordina i gruppi",
-            "toggleLayerVisibilityWarning": "Attiva o disattiva la visibilità del livello. Attenzione: il livello non è stato caricato correttamente",
-            "createWidget": "Crea un widget per il livello selezionato",
-            "editLayerProperties": "Modifica proprietà dal livello",
+            "toggleLayerVisibilityWarning": "Attiva o disattiva la visibilità del dato geografico. Attenzione: il dato geografico non è stato caricato correttamente",
+            "createWidget": "Crea un widget per il dato geografico selezionato",
+            "editLayerProperties": "Modifica proprietà dal dato geografico",
             "browseData": "Apri tabella degli attributi",
-            "removeLayer": "Rimuovi livello",
-            "loadingerror": "Il livello non è stato caricato correttamente o non disponible.",
+            "removeLayer": "Rimuovi dato geografico",
+            "loadingerror": "Il dato geografico non è stato caricato correttamente o non disponible.",
             "measure": "Misure",
             "layers": "Livelli",
             "drawerButton": "Livelli",
-            "refreshTitle": "Aggiorna livelli",
+            "refreshTitle": "Aggiorna dati geografici",
             "refreshConfirm": "Aggiorna",
             "refreshMessage": "Ricarica la configurazione dei layer WMS dai rispettivi server",
             "refreshError": "Errore di aggiornamento sui layer: ",
@@ -570,7 +570,7 @@
                 "title": "Aggiorna il titolo del layer",
                 "dimensions": "Aggiorna le dimensioni aggiuntive"
             },
-            "layerInfoTooltip": "Aggiorna titolo e descrizione del livello",
+            "layerInfoTooltip": "Aggiorna titolo e descrizione del dato geografico",
             "layerMetadata": {
                 "identifier": "Identificativo",
                 "title": "Titolo",
@@ -686,7 +686,7 @@
         },
         "getFeatureInfoTitle": "Informazioni sull'oggetto",
         "identifyTitle": "Informazioni sull'oggetto",
-        "identifyNoQueryableLayers": "Nessun livello interrogabile attivo",
+        "identifyNoQueryableLayers": "Nessun dato geografico interrogabile attivo",
         "identifyRevGeocodeHeader": "Coordinate",
         "identifyZoomToFeature": "Zoom alla feature",
         "identifyStopHighlightingFeatures": "Non evidenziare le feature interrogate",
@@ -700,7 +700,7 @@
         "identifyRevGeocodeCloseText": "Chiudi",
         "identifyRevGeocodeError": "Impossibile eseguire il geocoding",
         "identifyEdit": "Modifica",
-        "identifyLayerSelectNoResult": "Nessun livello trovato",
+        "identifyLayerSelectNoResult": "Nessun dato geografico trovato",
         "getFeatureInfoError": {
             "title": "Ooops! Qualcosa non va",
             "text": "Si è verificato un errore nel fare questa richiesta <b>GetFeatureInfo</b>"
@@ -744,10 +744,10 @@
             "exportToGeoJSON": "Esporta in GeoJSON",
             "saveMeasure": "Salva le misure nell'annotazione",
             "resetTooltip": "Rimuovi Misurazioni",
-            "addAsLayer": "Aggiungi come livello"
+            "addAsLayer": "Aggiungi come dato geografico"
         },
         "search": {
-            "layerMustBeVisible": "Il livello di destinazione è inattivo",
+            "layerMustBeVisible": "Il dato geografico di destinazione è inattivo",
             "decimal": "Decimali",
             "aeronautical": "Aeronautiche",
             "changeSearchInputField": "Cambia lo strumento di ricerca",
@@ -775,7 +775,7 @@
             "latitude": "Lat",
             "longitude": "Lon",
             "b_title": "Titolo",
-            "b_layer_tooltip": "Interruttore ricarica visibilità livello",
+            "b_layer_tooltip": "Interruttore ricarica visibilità dato geografico",
             "b_bbox": "Rettangolo di selezione",
             "b_bbox_tooltip": "Usa la vista corrente come riquadro di selezione",
             "b_bbox_south": "Sud",
@@ -799,7 +799,7 @@
             "s_attributes": "Attributi",
             "s_sort": "Ordina per",
             "s_max_features": "Numero massimo di risultati (Max features)",
-            "s_max_zoom": "Livello di zoom massimo",
+            "s_max_zoom": "dato geografico di zoom massimo",
             "s_wfs_props_label" : "Proprietà del servizio WFS",
             "s_wfs_opt_props_label" : "Proprietà facoltative",
             "s_result_props_label": "Proprietà di visualizzazione dei risultati",
@@ -815,13 +815,13 @@
             "s_launch_info_panel": {
                 "label": "Avvia ricerca per feature",
                 "no_info": "Non cercare",
-                "all_layers": "Tutti i livelli",
-                "single_layer": "Singolo livello",
+                "all_layers": "Tutti i dati geografici",
+                "single_layer": "Singolo dato geografico",
                 "no_info_description": "Il pannello Informazioni Sulle Feature non comparirà",
                 "all_layers_description": "Il pannello Informazioni Sulle Feature mostrerà informazioni di tutti i layer presenti in mappa",
-                "single_layer_description": "Il pannello Informazioni Sulle Feature mostrerà le informazioni solo per questo livello",
+                "single_layer_description": "Il pannello Informazioni Sulle Feature mostrerà le informazioni solo per questo dato geografico",
                 "openFeatureInfoButtonCheckbox": "Utilizzare il pulsante per aprire le informazioni sulla funzione",
-                "forceSearchLayerVisibility": "Forza la visibilità del livello di ricerca"
+                "forceSearchLayerVisibility": "Forza la visibilità del dato geografico di ricerca"
             },
             "advancedSearchPanel": {
                 "title": "Filtri di ricerca avanzata",
@@ -930,10 +930,10 @@
                         }
                     },
                     "buttons": {
-                        "edit": "Modifica livelli.",
-                        "editDisabled": "Nessun livello da modificare.",
-                        "remove": "Cancella livelli.",
-                        "removeDisabled": "Nessun livello da eliminare."
+                        "edit": "Modifica dati geografici.",
+                        "editDisabled": "Nessun dato geografico da modificare.",
+                        "remove": "Cancella dati geografici.",
+                        "removeDisabled": "Nessun dato geografico da eliminare."
                     }
                 },
                 "handlers": {
@@ -1078,13 +1078,13 @@
                 }
             },
             "crossLayerFilter": {
-                "title": "Filtra usando un livello",
-                "targetLayer": "Livello Filtro",
+                "title": "Filtra usando un dato geografico",
+                "targetLayer": "dato geografico Filtro",
                 "clear": "Pulisci Filtro",
                 "operation": "Operazione",
-                "placeholder": "Seleziona il livello",
+                "placeholder": "Seleziona il dato geografico",
                 "errors": {
-                    "noCrossLayerAvailable": "L'operazione di filtraggio usando un livello non è supportata per il layer selezionato",
+                    "noCrossLayerAvailable": "L'operazione di filtraggio usando un dato geografico non è supportata per il layer selezionato",
                     "layersExcluded": "Solo i layer provenienti dalla stessa sorgente possono essere selezionati come layer di destinazione per questo filtro layer"
                 }
             },
@@ -1092,8 +1092,8 @@
             "changedFilterAlert": "Ci sono modifiche non salvate. Vuoi salvare il filtro applicato ?",
             "resetFilter": "Reset",
             "confirmReset": "Conferma",
-            "loadingError": "Il filtro corrente ha causato un problema di rendering per il livello sulla mappa. Controlla la configurazione del layer sul server o correggi il filtro",
-            "changedFilterWithErrorAlert": "Il filtro sta causando un errore di rendering del livello, vuoi comunque salvarlo?"
+            "loadingError": "Il filtro corrente ha causato un problema di rendering per il dato geografico sulla mappa. Controlla la configurazione del layer sul server o correggi il filtro",
+            "changedFilterWithErrorAlert": "Il filtro sta causando un errore di rendering del dato geografico, vuoi comunque salvarlo?"
         },
         "annotations": {
             "errorLoadingSymbols": "Si è verificato un problema durante il caricamento dell'elenco dei simboli. Per favore, contatta l'amministratore per verificare le opzioni di configurazione",
@@ -1275,7 +1275,7 @@
             "direct": "Link",
             "code": "Embed",
             "embeddedLinkTitle": "Con il codice embedded",
-            "forceDrawer": "Mostra l'indice dei livelli",
+            "forceDrawer": "Mostra l'indice dei dati geografici",
             "apiLinkTitle": "Usando le API",
             "QRCodeLinkTitle": "Usando il QR Code",
             "msgCopiedUrl": "Copiato",
@@ -1326,21 +1326,21 @@
             },
             "add": "Importa",
             "cancel": "Annulla",
-            "merge": "Unisci con il livello di annotazione esistente",
-            "replace": "Sostituisci il livello di annotazione esistente",
+            "merge": "Unisci con il dato geografico di annotazione esistente",
+            "replace": "Sostituisci il dato geografico di annotazione esistente",
             "success": " correttamente importato",
             "next": "Avanti",
             "skip": "Salta",
             "finish": "Fine",
             "layerOf": "Strato {count} dei {total}:",
-            "styleCustomizationDisabled":"Questo livello ha già uno stile definito e non è possibile personalizzarlo."
+            "styleCustomizationDisabled":"Questo dato geografico ha già uno stile definito e non è possibile personalizzarlo."
         },
         "mapImport": {
             "title": "Importa",
             "dropZone": {
                 "heading": "<p> <h4> Rilascia qui i contesti di mappa o i file vettoriali </h4> <small> o </small> </p>",
                 "selectFiles": "Seleziona i file...",
-                "infoSupported": "<p> <small> File di contesti di mappa supportati: formato legacy di MapStore, WMC<br /> File di livello vettoriale supportati: shapefile (devono essere contenuti in archivi zip), KML / KMZ, GPX, GeoJSON o Annotazioni </small> </p>",
+                "infoSupported": "<p> <small> File di contesti di mappa supportati: formato legacy di MapStore, WMC<br /> File di dato geografico vettoriale supportati: shapefile (devono essere contenuti in archivi zip), KML / KMZ, GPX, GeoJSON o Annotazioni </small> </p>",
                 "note": "<p> <small> <i> <strong> nota </strong>: la mappa corrente verrà sovrascritta in caso di nuovi contesti di mappa </i> </small> </p>"
             },
             "errors": {
@@ -1363,11 +1363,11 @@
                 "wmc": {
                     "label": "WMC",
                     "description": "<p><small>Formato OGC Web Map Context</small></p>",
-                    "note": "<p><small><i><strong>nota</strong>: il formato WMC supporta <strong>solo livelli WMS</strong></i></small></p>"
+                    "note": "<p><small><i><strong>nota</strong>: il formato WMC supporta <strong>solo dati geografici WMS</strong></i></small></p>"
                 }
             },
             "errorTitle": "Esportazione della mappa non riuscita",
-            "wmcNoLayersError": "É necessario almeno un livello WMS per esportare in formato WMC. Non ne è stato trovato nessuno."
+            "wmcNoLayersError": "É necessario almeno un dato geografico WMS per esportare in formato WMC. Non ne è stato trovato nessuno."
         },
         "catalog": {
             "start": "Data d'inizio ",
@@ -1436,7 +1436,7 @@
             },
             "backgroundAlreadyAdded": "Aggiunto al selettore di sfondo",
             "enableLocalizedLayerStyles": {
-                "label": "Abilita stili di livello localizzati",
+                "label": "Abilita stili di dato geografico localizzati",
                 "tooltip": "Nota: questo parametro richiede configurazioni specifiche su GeoServer"
             },
             "format": {
@@ -1648,7 +1648,7 @@
                 "syncOnMap": "Sincronizza la mappa con i filtri",
                 "enableTimeSync": "Sincronizza con l'istante o l'intervallo temporale selezionato",
                 "disableTimeSync": "Non sincronizzare con l'istante o l'intervallo temporale selezionato",
-                "createNewChart": "crea un grafico per il livello selezionato"
+                "createNewChart": "crea un grafico per il dato geografico selezionato"
             }
         },
         "layerdownload": {
@@ -1668,12 +1668,12 @@
                 "title": "Errore durante l'esportazione",
                 "invalidOutputFormat": "Il formato selezionato non è disponibile",
                 "downloadEstimatorTitle": "Errore DownloadEstimator",
-                "downloadEstimatorFailed": "Richiesta DownloadEstimator non riuscita, il che significa che il file esportato supera i limiti del server configurato. Prova a modificare le opzioni di download o aggiungi un filtro al tuo livello e riprova."
+                "downloadEstimatorFailed": "Richiesta DownloadEstimator non riuscita, il che significa che il file esportato supera i limiti del server configurato. Prova a modificare le opzioni di download o aggiungi un filtro al tuo dato geografico e riprova."
             },
             "exportResultsMessages": {
                 "newExport": "Il file sarà disponibile qui al termine dell'esportazione",
-                "exportFailure": "Esportazione per il livello \"{layerTitle}\" non riuscita! Apri la finestra di dialogo dei risultati di esportazione per ulteriori informazioni.",
-                "exportSuccess": "L'esportazione per il livello \"{layerTitle}\" è terminata correttamente.",
+                "exportFailure": "Esportazione per il dato geografico \"{layerTitle}\" non riuscita! Apri la finestra di dialogo dei risultati di esportazione per ulteriori informazioni.",
+                "exportSuccess": "L'esportazione per il dato geografico \"{layerTitle}\" è terminata correttamente.",
                 "invalidHref": "La risposta dal server non conteneva un indirizzo URL valido per i file esportati!"
             },
             "wpsExecuteError": {
@@ -1683,7 +1683,7 @@
                 "getExecutionStatusXhrFailed": "Richiesta GetExecutionStatus non riuscita! Il server potrebbe essere configurato in modo errato o è diventato irraggiungibile",
                 "unexpectedError": "Si è verificato un errore imprevisto"
             },
-            "noSupportedServiceFound": "Il server non supporta il download WFS o WPS per questo livello!"
+            "noSupportedServiceFound": "Il server non supporta il download WFS o WPS per questo dato geografico!"
         },
         "exportDataResults": {
             "title": "Esporta i risultati dei dati",
@@ -1722,8 +1722,8 @@
             },
             "selectMap": {
                 "TOC": {
-                    "noLayerTitle": "Nessun livello",
-                    "noLayerDescription": "Non ci sono livelli nella mappa. Se si desidera aggiungere un layer dal catalogo fare clic sul pulsante '+' nella barra degli strumenti in alto"
+                    "noLayerTitle": "Nessun dato geografico",
+                    "noLayerDescription": "Non ci sono dati geografici nella mappa. Se si desidera aggiungere un layer dal catalogo fare clic sul pulsante '+' nella barra degli strumenti in alto"
                 },
                 "emptyMap": {
                     "title": "Mappa vuota",
@@ -1734,7 +1734,7 @@
             "description": "Descrizione",
             "errors": {
                 "notext": "Nessun testo disponibile",
-                "nodata": "Nessun dato disponibile per il livello/filtro selezionati",
+                "nodata": "Nessun dato disponibile per il dato geografico/filtro selezionati",
                 "noLegend": "Nessuna legenda da mostrare",
                 "noLegendDescription": "La mappa connessa non ha legende da mostrare",
                 "nodatainviewport": "Nessun dato per la vista selezionata",
@@ -1750,11 +1750,11 @@
                     "backToTypeSelection": "Torna alla selezione del tipo di grafico",
                     "backToWidgetTypeSelection": "Torna alla selezione del tipo di widget",
                     "backToFeatureGrid": "Torna alla tabella degli attributi",
-                    "backToLayerSelection": "Torna alla selezione del livello",
+                    "backToLayerSelection": "Torna alla selezione del dato geografico",
                     "backToMapSelection": "Torna alla selezione della mappa",
                     "backToPreview": "Torna all'anteprima",
                     "backToChartOptions": "Torna alle opzioni del grafico",
-                    "selectALayer": "Seleziona un livello",
+                    "selectALayer": "Seleziona un dato geografico",
                     "selectAMap": "Seleziona una mappa",
                     "configureChartOptions": "Configura le opzioni del grafico",
                     "configureWidgetOptions": "Configura le opzioni del widget",
@@ -1770,8 +1770,8 @@
                     "enableIdentifyTool": "Attiva lo strumento di identificazione",
                     "disableIdentifyTool": "Disabilita lo strumento di identificazione",
                     "preview": "Anteprima",
-                    "addLayer": "Aggiungi un livello alla mappa",
-                    "useTheSelectedLayer": "Usa il livello selezionato",
+                    "addLayer": "Aggiungi un dato geografico alla mappa",
+                    "useTheSelectedLayer": "Usa il dato geografico selezionato",
                     "connectToAMap": "Connetti ad un altro widget",
                     "connectToTheMap": "Connetti all'altro widget",
                     "selectMapToConnect": "Seleziona il widget da connettere",
@@ -1780,13 +1780,13 @@
                 "errors": {
                     "noAttributesTitle": "Nessun attributo disponibile",
                     "noAttributesDescription": "Il layer selezonato non ha atrributi da mostrare. Selezionare un altro layer o un altro tipo di widget.",
-                    "noWidgetsAvailableTitle": "Impossibile creare il widget per il livello selezionato",
-                    "noWidgetsAvailableDescription": "<p><strong> Prova a selezionare un altro livello o tipo di widget </strong> </p><p>Il server non fornisce i servizi necessari per il livello e il tipo di widget selezionato </p> <p> Le possibili cause sono: <ul> <li> Il livello selezionato è un livello raster </li> <li> Il servizio WFS non è disponibile </li><li> Il processo WPS <code>gs:aggregate</code> non è disponibile </li> </ul></p>",
+                    "noWidgetsAvailableTitle": "Impossibile creare il widget per il dato geografico selezionato",
+                    "noWidgetsAvailableDescription": "<p><strong> Prova a selezionare un altro dato geografico o tipo di widget </strong> </p><p>Il server non fornisce i servizi necessari per il dato geografico e il tipo di widget selezionato </p> <p> Le possibili cause sono: <ul> <li> Il dato geografico selezionato è un dato geografico raster </li> <li> Il servizio WFS non è disponibile </li><li> Il processo WPS <code>gs:aggregate</code> non è disponibile </li> </ul></p>",
                     "checkAtLeastOneAttribute": "seleziona almeno un attributo",
                     "noMapAvailableForLegend": "Nessuna mappa disponibile",
                     "noMapAvailableForLegendDescription": "C'è bisogno almeno di una mappa per creare una lagenda"
                 },
-                "setupFilter": "Configura un filtro per il livello selezionato"
+                "setupFilter": "Configura un filtro per il dato geografico selezionato"
             },
             "widget": {
                 "menu": {
@@ -2237,10 +2237,10 @@
                     "animationEnd": "Fine animazione",
                     "zoomToCurrentPlayackRange": "Zoom all'intervallo di riproduzione corrente",
                     "setToCurrentViewRange": "Imposta sull'intervallo di visualizzazione corrente",
-                    "fitToSelectedLayerRange": "Adatta ai dati del livello selezionato"
+                    "fitToSelectedLayerRange": "Adatta ai dati del dato geografico selezionato"
                 },
                 "step": {
-                    "tooltip": "Quando l'opzione 'Aggancia al livello guida' è disabilitata, si può personalizzare il passo di animazione",
+                    "tooltip": "Quando l'opzione 'Aggancia al dato geografico guida' è disabilitata, si può personalizzare il passo di animazione",
                     "label": "Passo di animazione",
                     "year": "{number, plural, =0 {Anni} =1 {Anno} other {Anni}}",
                     "week": "{number, plural, =0 {Settimane} =1 {Settimana} other {Settimane}}",
@@ -2265,8 +2265,8 @@
         "timeline": {
             "settings": {
                 "title": "Impostazione linea di tempo",
-                "snapToGuideLayer": "Aggancia al livello guida",
-                "snapToGuideLayerTooltip": "Forza il cursore del tempo in modo che si agganci ai dati del livello selezionato. Disattiva questa opzione per sbloccare i cursori temporali e abilitare la personalizzazione del passo di animazione"
+                "snapToGuideLayer": "Aggancia al dato geografico guida",
+                "snapToGuideLayerTooltip": "Forza il cursore del tempo in modo che si agganci ai dati del dato geografico selezionato. Disattiva questa opzione per sbloccare i cursori temporali e abilitare la personalizzazione del passo di animazione"
             },
             "hide": "Nascondi timeline",
             "show": "Mostra timeline",
@@ -2275,8 +2275,8 @@
             "currentTime": "Istante corrente",
             "rangeStart": "Vai all'intervallo di tempo corrente",
             "rangeEnd": "Vai all'intervallo di tempo corrente",
-            "hideLayerName": "Nascondi i nomi dei livelli",
-            "showLayerName": "Mostra i nomi dei livelli",
+            "hideLayerName": "Nascondi i nomi dei dati geografici",
+            "showLayerName": "Mostra i nomi dei dati geografici",
             "enableRange": "Abilita intervallo",
             "disableRange": "Disabilita intervallo",
             "enablePlayBack": "Abilita i controlli di riproduzione",
@@ -2494,7 +2494,7 @@
                     "webFontLoadError": "Impossibile caricare alcuni caratteri dalla configurazione locale",
                     "fontSize": "Dimensione del font",
                     "overlay": "Copertura",
-                    "templateTooltip":"Questa impostazione consente di abilitare la funzione di Identify sulla mappa definendo un formato generico per tutti i layer. E' possibile configurare un formato differente per ogni singolo livello usando l'editor di mappa avanzato (icona matita). Per maggiori informazioni si consulti la <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'>guida utente</a>. Se un layer ha definito il proprio formato di Identify, questo esso verrà usato al posto di quello generico impostato a livello di mappa."
+                    "templateTooltip":"Questa impostazione consente di abilitare la funzione di Identify sulla mappa definendo un formato generico per tutti i layer. E' possibile configurare un formato differente per ogni singolo dato geografico usando l'editor di mappa avanzato (icona matita). Per maggiori informazioni si consulti la <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'>guida utente</a>. Se un layer ha definito il proprio formato di Identify, questo esso verrà usato al posto di quello generico impostato a dato geografico di mappa."
                 }
             },
             "errors": {
@@ -2671,8 +2671,8 @@
             "title": "About"
           },
           "AddGroup": {
-            "description": "Consente agli utenti di creare nuovi gruppi di livelli alla TOC",
-            "title": "Aggiungi gruppo di livelli"
+            "description": "Consente agli utenti di creare nuovi gruppi di dati geografici alla TOC",
+            "title": "Aggiungi gruppo di dati geografici"
           },
           "Annotations": {
             "description": "Strumento per disegnare annotazioni sulla mappa",
@@ -2707,8 +2707,8 @@
             "title": "Tabella degli attributi"
           },
           "FilterLayer": {
-            "description": "Consente di aggiungere un filtro a un livello",
-            "title": "Filtra Livello"
+            "description": "Consente di aggiungere un filtro a un dato geografico",
+            "title": "Filtra dato geografico"
           },
           "HelpLink": {
             "description": "Un pulsante per accedere alla documentazione di MapStore",
@@ -2751,7 +2751,7 @@
             "title": "Misura"
           },
           "MetadataExplorer": {
-            "description": "Sfoglia i servizi (WMS / WMTS / CSW) per aggiungere livelli alla mappa",
+            "description": "Sfoglia i servizi (WMS / WMTS / CSW) per aggiungere dati geografici alla mappa",
             "title": "Catalogo"
           },
           "MousePosition": {
@@ -2791,12 +2791,12 @@
             "title": "Editor degli Stili"
           },
           "TOC": {
-            "description": "Fornisce l'elenco dei livelli con la possibilità di ordinarli",
-            "title": "Elenco dei livelli"
+            "description": "Fornisce l'elenco dei dati geografici con la possibilità di ordinarli",
+            "title": "Elenco dei dati geografici"
           },
           "TOCItemsSettings": {
-            "description": "Consenti di modificare le impostazioni dei livelli",
-            "title": "Impostazioni livello"
+            "description": "Consenti di modificare le impostazioni dei dati geografici",
+            "title": "Impostazioni dato geografico"
           },
           "Timeline": {
             "description": "Permette di viaggiare nel tempo con i dati con dimensione temporale",
@@ -2840,11 +2840,11 @@
             "title": "Zoom al massima Estensione"
           },
           "ZoomIn": {
-            "description": "Pulsante che aumenta il livello di zoom della mappa",
+            "description": "Pulsante che aumenta il dato geografico di zoom della mappa",
             "title": "Zoom in"
           },
           "ZoomOut": {
-            "description": "Pulsante che diminuisce il livello di zoom della mappa",
+            "description": "Pulsante che diminuisce il dato geografico di zoom della mappa",
             "title": "Zoom Out"
           }
         },
@@ -2983,7 +2983,7 @@
             "noTemplatesTitle": "Nessun modello trovato",
             "noTemplatesDescription": "Il contesto corrente non contiene modelli",
             "confirmReplaceTitle": "Sostituisci il contenuto della mappa",
-            "confirmReplaceMessage": "Sostituirai tutti i livelli e la configurazione della mappa con il modello selezionato facendo clic sul pulsante Sostituisci",
+            "confirmReplaceMessage": "Sostituirai tutti i dati geografici e la configurazione della mappa con il modello selezionato facendo clic sul pulsante Sostituisci",
             "confirmReplaceConfirmButton": "Sostituire"
         },
         "mapCatalog": {
@@ -3007,23 +3007,23 @@
             "updateError": "Si è verificato un errore imprevisto durante il salvataggio della mappa"
         },
         "layerInfo": {
-            "title": "Aggiorna titoli e descrizioni dei livelli",
-            "noLayers": "Nessun livello trovato",
+            "title": "Aggiorna titoli e descrizioni dei dati geografici",
+            "noLayers": "Nessun dato geografico trovato",
             "syncButton": "Sincronizza titoli e descrizioni",
             "selectAll": "Seleziona tutto",
             "deselectAll": "Deselezionare tutto",
-            "updatingLayers": "Aggiornamento dei livelli {updatedCount}/{totalCount}",
+            "updatingLayers": "Aggiornamento dei dati geografici {updatedCount}/{totalCount}",
             "tooltips": {
-                "syncSuccess": "Titolo e descrizione sono stati aggiornati con successo per questo livello",
-                "syncError": "Non è possibile aggiornare il titolo e la descrizione di questo livello. È possibile verificare se tutte le opzioni di livello sono corrette nel pannello delle impostazioni"
+                "syncSuccess": "Titolo e descrizione sono stati aggiornati con successo per questo dato geografico",
+                "syncError": "Non è possibile aggiornare il titolo e la descrizione di questo dato geografico. È possibile verificare se tutte le opzioni di dato geografico sono corrette nel pannello delle impostazioni"
             },
             "syncingLayersSavingToServerError": {
                 "title": "Errore di salvataggio del server",
-                "message": "Si è verificato un errore imprevisto durante il salvataggio dei livelli aggiornati sul server"
+                "message": "Si è verificato un errore imprevisto durante il salvataggio dei dati geografici aggiornati sul server"
             },
             "syncingLayersGeneralError": {
                 "title": "Errore generale",
-                "message": "Si è verificato un errore imprevisto durante la sincronizzazione dei livelli. Probabilmente c'è un bug in MapStore"
+                "message": "Si è verificato un errore imprevisto durante la sincronizzazione dei dati geografici. Probabilmente c'è un bug in MapStore"
             },
             "layerType": "tipo: {type}"
         },
@@ -3137,7 +3137,7 @@
             },
             "dashboardAddChart": {
                 "title": "Widget Grafico",
-                "text": "<p> È un widget che mostra e aggrega i dati in grafici a torta, linea o a istogramma. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un livello vettoriale </li> <li> Seleziona il tipo di grafico </li> <li> Configura i dati del grafico </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "text": "<p> È un widget che mostra e aggrega i dati in grafici a torta, linea o a istogramma. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un dato geografico vettoriale </li> <li> Seleziona il tipo di grafico </li> <li> Configura i dati del grafico </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "dashboardAddText": {
                 "title": "Widget Testo",
@@ -3145,15 +3145,15 @@
             },
             "dashboardAddTable": {
                 "title": "Widget Tabella ",
-                "text": "<p> Aggiungi una tabella di attributi alla dashboard che contiene dati di un livello vettoriale selezionato. Puoi anche filtrare i dati per personalizzare la tabella. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un livello vettoriale </li> <li> Configura dati tabella </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "text": "<p> Aggiungi una tabella di attributi alla dashboard che contiene dati di un dato geografico vettoriale selezionato. Puoi anche filtrare i dati per personalizzare la tabella. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona un dato geografico vettoriale </li> <li> Configura dati tabella </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "dashboardAddCounter": {
                 "title": "Widget Contatore",
-                "text": "<p> Aggiungi un nuovo contatore alla dashboard. Il contatore mostrerà il valore numerico aggregando i dati da un livello vettoriale selezionato. </p> <p> Passi: </p> <p> <ul> <li> Seleziona un livello vettoriale </li> <li> Configura i dati del contatore </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "text": "<p> Aggiungi un nuovo contatore alla dashboard. Il contatore mostrerà il valore numerico aggregando i dati da un dato geografico vettoriale selezionato. </p> <p> Passi: </p> <p> <ul> <li> Seleziona un dato geografico vettoriale </li> <li> Configura i dati del contatore </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "dashboardAddMap": {
                 "title": "Widget Mappa",
-                "text": "<p> Aggiungi una nuova mappa interattiva alla dashboard. È possibile aggiungere più di una mappa con la possibilità di collegare ad esse altri widget. Dopo aver salvato la prima mappa, il widget legenda verrà aggiunto all'elenco. Legend Widget mostrerà una legenda relativa alla mappa connessa. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona una mappa </li> <li> Migliora la mappa aggiungendo nuovi livelli </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
+                "text": "<p> Aggiungi una nuova mappa interattiva alla dashboard. È possibile aggiungere più di una mappa con la possibilità di collegare ad esse altri widget. Dopo aver salvato la prima mappa, il widget legenda verrà aggiunto all'elenco. Legend Widget mostrerà una legenda relativa alla mappa connessa. </p> <p> Passaggi: </p> <p> <ul> <li> Seleziona una mappa </li> <li> Migliora la mappa aggiungendo nuovi dati geografici </li> <li> Salva e aggiungi alla dashboard </li> </ul> </p>"
             },
             "contextCreator": {
                 "generalSettings": {
